@@ -2,8 +2,85 @@
 
 ---
 
-# Motivation
+# What's rkgen?
+
+- A micro-generator framework for Polaris UI
+- Scaffolding tools
+    - Project level - CRA, Yeoman, etc
+    - Parts of projects - Hygen, PlopJS, etc
 
 ---
 
-Code walkthrough
+# Demo
+
+---
+
+# Motivation
+
+- Speed up UI development e.g. adding new snappables
+- Ensure consistency in code and UX
+- Limit the number of things a backend engineer needs to learn
+
+---
+
+# Overview
+
+## A micro-generator framework should be able to:
+
+- Take input from user
+- Modify existing files
+- Add new files
+
+---
+
+# Tools evaluation
+
+## PlopJS, Hygen
+
+- Prompts using inquirer.js
+- Modify existing files - regex based modifications
+- Add new files - templating engines like Handlebars, EJS.
+
+---
+
+# Why homegrown solution?
+
+- AST based modifications give more confidence.
+- No need to learn templating engines
+
+---
+
+# Principles
+
+- Declarative
+- Composable
+- Minimal user input
+
+---
+
+# Code walkthrough
+
+---
+
+# Advantages
+
+- Fast
+- consistency
+- Low barrier for entry for backend engineers
+- Polaris UI best practices followed out of the box
+- Better DX for the core UI team
+- Less review time
+
+---
+
+# The ask
+
+- Review (include link to diff)
+    - More reviews = better tool
+    - Tap into the collective wisdom of the team
+- Add more generators
+    - We can have a workshop, if that helps.
+
+---
+
+# Questions?
