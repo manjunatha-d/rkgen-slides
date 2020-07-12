@@ -1,0 +1,23 @@
+{
+  "name": "rkgen-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck slides/deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjunatha-d/rkgen-slides.git"
+  },
+  "author": "Manjunatha D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjunatha-d/rkgen-slides/issues"
+  },
+  "homepage": "https://github.com/manjunatha-d/rkgen-slides#readme",
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}
