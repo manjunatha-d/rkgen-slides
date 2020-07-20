@@ -14,12 +14,16 @@
 # Demo
 
 ---
+# The WHYs
 
-# Motivation
 
-- Speed up UI development e.g. adding new snappables
-- Ensure consistency in code and UX
-- Limit the number of things a backend engineer needs to learn
+<Steps>
+
+### Speed up UI development e.g. adding new snappables
+### Ensure consistency in code and UX
+### Limit the number of things a backend engineer needs to learn
+
+</Steps>
 
 ---
 
@@ -27,9 +31,13 @@
 
 ## A micro-generator framework should be able to:
 
-- Take input from user
-- Modify existing files
-- Add new files
+<ul>
+  <Steps>
+    <li>Take input from user</li>
+    <li>Add new files</li>
+    <li>Modify existing files</li>
+  </Steps>
+</ul>
 
 ---
 
@@ -37,7 +45,7 @@
 
 ## PlopJS, Hygen
 
-- Prompts using inquirer.js
+- User inputs - Prompts using inquirer.js
 - Modify existing files - regex based modifications
 - Add new files - templating engines like Handlebars, EJS.
 
@@ -45,16 +53,12 @@
 
 # Why homegrown solution?
 
-- AST based modifications give more confidence.
-- No need to learn templating engines
-
----
-
-# Principles
-
-- Declarative
-- Composable
-- Minimal user input
+<ul>
+  <Steps>
+    <li>AST based modifications give more confidence</li>
+    <li>No need to learn templating engines</li>
+  </Steps>
+</ul>
 
 ---
 
@@ -62,22 +66,37 @@
 
 ---
 
+# Composable
+
+### Generators, templates
+
+---
+
+# Declarative
+
+### Generator config
+
+---
+
 # Advantages
 
-- Fast
-- consistency
-- Low barrier for entry for backend engineers
-- Polaris UI best practices followed out of the box
-- Better DX for the core UI team
-- Less review time
+<ul>
+  <Steps>
+    <li>Fast</li>
+    <li>Consistency</li>
+    <li>Low barrier to entry for backend engineers</li>
+    <li>Polaris UI best practices followed out of the box</li>
+    <li>Better DX for the core UI team</li>
+  </Steps>
+</ul>
 
 ---
 
 # The ask
 
-- Review (include link to diff)
-    - More reviews = better tool
+- Review
     - Tap into the collective wisdom of the team
+    - More reviews = better tool
 - Add more generators
     - We can have a workshop, if that helps.
 
